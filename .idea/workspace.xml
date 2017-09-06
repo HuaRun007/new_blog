@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8c27868-0ee4-4c08-a12b-67628ad37422" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Admin/Index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/controllers/Admin/Write.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Admin/index/changepassword.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Admin/index/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Admin/index/login.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Admin/index/login_timeout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Admin/write/writearticle.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Home/index/content.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/views/Home/index/index.blade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/logs/sql_error.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/bjui-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/bjui-all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/bjui-all.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/highlight.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/iconfont.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/jquery-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/js/raindrops.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/other/html5shiv.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/other/ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/other/jquery.iframe-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/other/respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/bootstrap-select.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/bootstrap-select.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/bootstrap-select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/bootstrap-select.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/bootstrap-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/defaults-zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/bootstrapSelect/defaults-zh_CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/css/bootstrap-colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/js/bootstrap-colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/colorpicker/js/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/datepicker/bootstrap-datetimepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/datepicker/bootstrap-datetimepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/datepicker/bootstrap-datetimepicker.zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/download/jquery.fileDownload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/dragsort/jquery.dragsort-0.5.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/dragsort/jquery.dragsort-0.5.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/bar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/chord.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/eventRiver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/force.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/gauge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/k.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/line.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/radar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/chart/scatter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/echarts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/dark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/helianthus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/infographic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/macarons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/red.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/echarts/theme/shine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/adapters/standalone-framework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/highcharts-3d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/highcharts-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/highcharts-more.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/highcharts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/canvas-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/drilldown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/exporting.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/funnel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/heatmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/no-data-to-display.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/modules/solid-gauge.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/dark-blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/dark-green.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/dark-unica.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/gray.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/grid-light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/grid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/sand-signika.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/highcharts/themes/skies.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/icheck/icheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/icheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/kindeditor-all-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/kindeditor-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/lang/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/anchor/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/autoheight/autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/baidumap/baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/baidumap/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/baidumap/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/clearhtml/clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/code/code.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/code/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/code/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/100.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/101.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/102.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/103.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/104.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/105.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/106.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/107.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/108.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/109.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/11.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/110.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/111.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/112.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/113.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/114.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/115.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/116.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/117.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/118.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/119.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/12.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/120.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/121.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/122.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/123.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/124.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/125.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/126.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/127.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/128.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/129.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/130.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/131.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/132.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/133.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/134.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/14.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/15.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/17.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/18.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/19.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/20.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/23.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/24.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/25.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/26.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/27.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/28.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/29.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/30.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/31.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/32.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/33.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/34.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/35.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/36.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/37.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/38.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/39.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/40.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/41.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/42.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/43.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/44.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/45.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/46.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/47.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/48.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/49.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/50.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/51.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/52.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/53.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/55.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/56.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/57.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/58.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/59.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/60.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/61.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/62.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/63.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/65.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/66.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/67.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/68.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/69.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/70.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/71.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/72.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/73.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/74.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/75.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/76.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/77.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/78.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/79.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/81.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/82.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/83.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/84.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/85.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/86.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/87.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/88.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/89.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/90.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/91.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/92.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/93.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/94.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/95.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/96.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/97.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/98.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/99.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/emoticons/images/static.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/images/file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/images/file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/images/folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/images/folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/filemanager/images/go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/fixtoolbar/fixtoolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/flash/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/image/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/image/images/align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/image/images/align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/image/images/align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/image/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/insertfile/insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/lineheight/lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/link/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/map/map.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/map/map.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/media/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/multiimage/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/multiimage/images/select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/multiimage/images/select-files-zh-CN.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/multiimage/images/swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/multiimage/multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/pagebreak/pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/plainpaste/plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/preview/preview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/quickformat/quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/table/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/template/html/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/template/html/2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/template/html/3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/template/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/plugins/wordpaste/wordpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/media.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/common/rm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/default/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/default/default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/default/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/qq/editor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/qq/qq.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/kindeditor_4.1.11/themes/simple/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/images/validator_default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/images/validator_simple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/jquery.validator.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/jquery.validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/jquery.validator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/jquery.validator.themes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/local/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/local/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/local/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/nice-validator-1.0.7/local/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/other/jquery.autosize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/other/respond.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/photo/jquery.SuperSlide.2.1.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/photo/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/printarea/jquery.PrintArea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/1_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/1_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/diy/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/line_conn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/zTreeStandard.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/img/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/styles/zTreeStyle/zTreeStyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/swfupload/swfupload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/swfupload/swfupload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/css/uploadify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/img/add.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/img/cancel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/img/delete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/img/upload.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/img/uploadify-cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/scripts/jquery.uploadify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/scripts/jquery.uploadify.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/uploadify/scripts/uploadify.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/Uploader.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/success.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/webuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.all-3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.all-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.core-3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.core-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.excheck-3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.excheck-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.exedit-3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.exedit-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.exhide-3.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/plugins/ztree/jquery.ztree.exhide-3.5.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/core_.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/topbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/blue/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/FA/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/fontsize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/changed-flag-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/1_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/1_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/diy/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/error-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/line_conn.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/line_conn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/green/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/green/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/green/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/green/topbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/green/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/purple/core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/purple/purple.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/purple/purple@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/purple/topbg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/B-JUI/themes/purple/zTreeStandard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/ZeroClipboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/ZeroClipboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/ZeroClipboard.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/ico/apple-touch-icon-precomposed.png.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/ico/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/assets/run_prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/banner/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/common/css/tree.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/common/js/LodopFuncs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/common/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/common/js/custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/common/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/content/20170630171607_229.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/content/20170704134104_301.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/css/admin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/css/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/css/download.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/css/pintuer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/fonts/iconfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/fonts/iconfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/fonts/iconfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/fonts/iconfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/captcha.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/loginbg_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/nopic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/portrait.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/upload/20170630171555_334.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/images/upload/20170704134057_812.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/canvas-nest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/lib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/pintuer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/show_ads.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/wangEditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/static/js/wangEditor.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/all.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/catchError.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/HttpClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/PushClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TcpFDClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TcpFDClientBenchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TcpHDClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TcpHDClientBenchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TimePushClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/TimeoutClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/UnixClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/UnixClientBenchmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/asyncInvoke.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/asyncInvoke1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/asyncInvoke2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/asyncInvoke3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/asyncInvoke4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/byref.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/byref1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/client/mode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/co7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/completer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/each.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/each1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/every.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/every1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/CompressFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/LogFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/SizeFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/StatFilter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam1/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam1/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam2/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam2/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam3/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam3/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam4/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam4/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam5/JSONRPCClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam5/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter/exam5/XMLRPCClient.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/filter1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/isFuture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/map.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/map1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/CacheHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/CacheHandler2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/SizeHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/StatHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/StatHandler2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/coLogHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam1/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam1/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam2/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam2/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam3/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam3/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam4/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam4/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam5/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/exam5/Server.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/logHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/middleware/logHandler2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/promise.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/reduce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/reduce1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/run.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/search.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/search1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/HttpServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/ProxyServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/PushServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/TcpServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/TimePushServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/TimeoutServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/UnixServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/async.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/passContext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/server/passContextAndAsync.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/settle.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/some.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/some1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/testco.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/whenComplete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/examples/src/wrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/tests/Bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/tests/FormatterTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/tests/PromiseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/tests/phpunit.xml.dist" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/static/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/cache/9dd105342c4bd97eb076ad3c39a1dd9155c1d08d.php" afterPath="$PROJECT_DIR$/application/cache/9dd105342c4bd97eb076ad3c39a1dd9155c1d08d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Index.php" afterPath="$PROJECT_DIR$/application/controllers/Index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Admin/System.php" afterPath="$PROJECT_DIR$/application/models/Admin/System.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/json/menu-form.json" afterPath="$PROJECT_DIR$/public/json/menu-form.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/css/style.css" afterPath="$PROJECT_DIR$/public/static/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/static/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/composer.json" afterPath="$PROJECT_DIR$/vendor/hprose/hprose/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose.php" afterPath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose/Client.php" afterPath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose/Service.php" afterPath="$PROJECT_DIR$/vendor/hprose/hprose/src/Hprose/Service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Foundation/Application.php" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Foundation/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Job.php" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Queue/Job.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageBag.php" afterPath="$PROJECT_DIR$/vendor/illuminate/contracts/Support/MessageBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/filesystem/FilesystemAdapter.php" afterPath="$PROJECT_DIR$/vendor/illuminate/filesystem/FilesystemAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/filesystem/FilesystemManager.php" afterPath="$PROJECT_DIR$/vendor/illuminate/filesystem/FilesystemManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Arr.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Arr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Collection.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Route.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Schema.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Storage.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Facades/Storage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/HigherOrderCollectionProxy.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/HigherOrderCollectionProxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/ServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/Str.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/Str.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/ViewErrorBag.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/ViewErrorBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/composer.json" afterPath="$PROJECT_DIR$/vendor/illuminate/support/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" afterPath="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/view/Compilers/Concerns/CompilesConditionals.php" afterPath="$PROJECT_DIR$/vendor/illuminate/view/Compilers/Concerns/CompilesConditionals.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/view/Compilers/Concerns/CompilesEchos.php" afterPath="$PROJECT_DIR$/vendor/illuminate/view/Compilers/Concerns/CompilesEchos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/view/Concerns/ManagesLayouts.php" afterPath="$PROJECT_DIR$/vendor/illuminate/view/Concerns/ManagesLayouts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/view/Engines/EngineResolver.php" afterPath="$PROJECT_DIR$/vendor/illuminate/view/Engines/EngineResolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/DebugClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/ErrorHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/ErrorHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Exception/SilencedErrorContext.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Exception/SilencedErrorContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/ExceptionHandler.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/ExceptionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/DebugClassLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/Tests/ErrorHandlerTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/debug/Tests/ErrorHandlerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/debug/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/debug/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/composer.json" afterPath="$PROJECT_DIR$/vendor/symfony/finder/composer.json" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vendor/illuminate/support/helpers.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yaf2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8c27868-0ee4-4c08-a12b-67628ad37422" name="Default" comment="" />
+      <created>1498444449217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498444449217</updated>
+      <workItem from="1504599235690" duration="754000" />
+      <workItem from="1504689518234" duration="1055000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1809000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928678" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/illuminate/support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="516" column="30" lean-forward="true" selection-start-line="516" selection-start-column="30" selection-end-line="516" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
